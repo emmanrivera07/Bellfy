@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bellify</title>
+        <link rel="stylesheet" href="/assets/css/default.css" />
+    </head>
+    <body>
+        <div class="MainHeader">
+            <div class="TopBar">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+            <nav class="navbar navbar-expand-xl navbar-light Navbar">
+                <img class="Navbar-logo" src="assets/img/logo.png" alt="Bellify logo">
+                <button
+                    class="navbar-toggler Navbar-btn-menu"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"><span class="sr-only">Abrir menu</span></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse Navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav Navbar-list">
+                        <li class="nav-item dropdown ">
+                            <a
+                                class="nav-link dropdown-toggle Navbar-link"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Servicios
+                            </a>
+                            <div
+                                class="dropdown-menu Nabvar-dropdown"
+                                aria-labelledby="navbarDropdown"
+                            >
+                                <a class="dropdown-item Navbar-dropdown-item" href="#">Peluquería</a>
+                                <a class="dropdown-item Navbar-dropdown-item" href="#"
+                                    >Maquillaje</a
+                                >
+                                <a class="dropdown-item Navbar-dropdown-item" href="#"
+                                    >Uñas</a
+                                >
+                                <a class="dropdown-item Navbar-dropdown-item" href="#"
+                                    >Estética</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link Navbar-link" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link Navbar-link" href="#">Bodas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link Navbar-link" href="#">Estilos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  Navbar-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav Navbar-list-secundary">
+                        <li class="nav-item Navbar-item">
+                            <a class="nav-link  Navbar-link" href="#">Iniciar Sesión</a>
+                        </li>
+                        <li class="nav-item Navbar-item ">
+                            <button type="button" class="btn btn-primary purple-btn" href="#">Reserva</button>
+                        </li>
+                        <li class="nav-item">
+                            <select class="form-select Navbar-select Navbar-link" aria-label="Default select example">
+                                <option class="Navbar-option" selected>ES</option>
+                                <option class="Navbar-option" value="1">IN</option>
+                              </select>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">
+                                <img class="Navbar-icons Navbar-link" src="assets/img/heart.png" alt="" srcset="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">
+                                <img class="Navbar-icons " src="assets/img/shopping-bag.png" alt="" srcset=""><span class="badge Nabvar-badge">6</span></img>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="Hero">
+                <div class="Hero-container-text-title-header">
+                    <h1 class="Hero-text-title-header">TU ASESOR DE BELLEZA A DOMICILIO</h1>
+                </div>
+                <div class="Hero-container-text-subtitle-header">
+                    <p class="Hero-text-subtitle-header">Servicios de peluquería, maquillaje, uñas y estética.</p>
+                    <p class="Hero-text-subtitle-header">Productos imprescindibles. </p>
+                    <p class="Hero-text-subtitle-header">En cualquier lugar, en cualquier lugar momento.</p>
+                </div>
+            </div>
+        </div>
+        <div class="Reservation">
+            <div class="Reservation-options">
+                <img src="assets/img/placeholder.png" alt="" srcset="">
+                <label for="">Localidad
+                    <select name="" id="" class="Reservation-select">
+                        <option selected class="Reservation-select-option">Madrid</option>
+                        <option value="" class="Reservation-select-option">Barcelona</option>
+                        <option value="" class="Reservation-select-option">Valencia</option>
+                    </select>
+                </label>
+            </div>
+            <div class="Reservation-options">
+                <img src="assets/img/tratamiento.png" alt="" srcset="">
+                <label for="">Tratamiento
+                    <select name="" id="" class="Reservation-select">
+                        <option selected value="Localidad" class="Reservation-select-option">Madrid</option>
+                        <option value="" class="Reservation-select-option">Barcelona</option>
+                        <option value="" class="Reservation-select-option">Valencia</option>
+                    </select>
+                </label>
+            </div>
+            <div class="Reservation-options">
+                <img src="assets/img/calendar.png" alt="" srcset="">
+                <input class="Reservation-calendar" type="date"  step="1" min="2021-04-15" max="2022-12-31" value="2021-04-15">
+            </div>
+            <div class="Reservation-options">
+                <img src="assets/img/reloj.png" alt="" srcset="">
+                    <input class="Reserva-hour" type="time"  min="00:00" max="23:59" />
+            </div>
+            <button class="btn btn-primary Reservation-btn-reserve">Reservar</button>
+        </div>
+        <div class="MainStoreOnline">
+            <div class="MainStoreOnline-container">
+                <h2 class="MainStoreOnline-title">TIENDA ONLINE</h2>
+                <p class="MainStoreOnline-subtitle">Accede a los productos de belleza utilizados por los mejores profesionales.</p>
+                <button type="button" class="btn btn-primary MainStoreOnline-btn-buy-now">Compra ahora</button>
+            </div>
+        </div>
+        <div class="MainServices">
+            <div class="MainServicescontainer-text">
+                <h2 class="MainServices-text-title">SERVICIOS</h2>
+                <p class="MainServices-text-subtitle-services">Bellify es la plataforma líder en España en servicios de belleza a domicilio. Únete a Bellify para acceder a los mejores profesionales en peluquería, maquillaje, uñas y estética.</p>
+            </div>
+            <div class="ColsServices">
+                <div class="card-group">
+                    <div class="card ColsServices-card">
+                      <img src="assets/img/belleza.png" class="card-img-top ColsServices-card-img-belleza" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title ColsServices-card-title">Tu belleza</h5>
+                        <p class="card-text ColsServices-card-text">¿Cómo quieres sentirte hoy? Simplemente selecciona los servicios que se ajusten a tus necesidades de belleza y nosotros nos encargaremos del resto. Cualquiera que sea la solicitud, siempre adaptamos un enfoque personalizado para cada cita.</p>
+                      </div>
+                    </div>
+                    <div class="card ColsServices-card">
+                      <img src="assets/img/disponibilidad.png" class="card-img-top ColsServices-card-img-disponibilidad" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title ColsServices-card-title">Tu disponibilidad y tu ubicación</h5>
+                        <p class="card-text ColsServices-card-text">Una reunión a las 8 de la mañana?
+                            Una cena a las 11 de la noche?
+                            No importa dónde te encuentres o cómo tengas la agenda, ofrecemos una experiencia que se adapta a tu vida y a tu horario, porque la belleza sucede cada segundo de cada día.</p>
+                      </div>
+                    </div>
+                    <div class="card ColsServices-card">
+                      <img src="assets/img/profesionales.png" class="card-img-top ColsServices-card-img-profesionales" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title ColsServices-card-title">Nuestros profesionales</h5>
+                        <p class="card-text ColsServices-card-text">Bellify pone a tu disposición a los profesionales que mejor se adaptan a tus necesidades, quienes llegarán al lugar indicado con los mejores productos y utensilios garantizando el mejor resultado.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ColsGroupServices">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col ColsGroupServices-col">
+                      <div class="card ColsGroupServices-card">
+                        <img src="assets/img/maquillaje.png" class="card-img-top" alt="...">
+                        <div class="card-body ColsGroupServices-card-body">
+                          <h5 class="card-title ColsGroupServices-card-title">MAQULLAJE</h5>
+                          <p class="card-text ColsGroupServices-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis dictum tellus, in rutrum purus.</p>
+                          <button type="button" class="btn btn-primary ColsGroupServices-btn-hire">Contratar</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col ColsGroupServices-col">
+                        <div class="card ColsGroupServices-card">
+                          <img src="assets/img/peluqueria.png" class="card-img-top" alt="...">
+                          <div class="card-body ColsGroupServices-card-body">
+                            <h5 class="card-title ColsGroupServices-card-title">PELUQUERÍA</h5>
+                            <p class="card-text ColsGroupServices-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis dictum tellus, in rutrum purus.</p>
+                            <button type="button" class="btn btn-primary ColsGroupServices-btn-hire">Contratar</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col ColsGroupServices-col">
+                        <div class="card ColsGroupServices-card">
+                          <img src="assets/img/uñas.png" class="card-img-top" alt="...">
+                          <div class="card-body ColsGroupServices-card-body">
+                            <h5 class="card-title ColsGroupServices-card-title">UÑAS</h5>
+                            <p class="card-text ColsGroupServices-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis dictum tellus, in rutrum purus.</p>
+                            <button type="button" class="btn btn-primary ColsGroupServices-btn-hire">Contratar</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col ColsGroupServices-col">
+                        <div class="card ColsGroupServices-card">
+                          <img src="assets/img/estetica.png" class="card-img-top" alt="...">
+                          <div class="card-body ColsGroupServices-card-body">
+                            <h5 class="card-title ColsGroupServices-card-title">ESTÉTICA</h5>
+                            <p class="card-text ColsGroupServices-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis dictum tellus, in rutrum purus.</p>
+                            <button type="button" class="btn btn-primary ColsGroupServices-btn-hire">Contratar</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col ColsGroupServices-col">
+                        <div class="card ColsGroupServices-card">
+                          <img src="assets/img/grupos.png" class="card-img-top" alt="...">
+                          <div class="card-body ColsGroupServices-card-body">
+                            <h5 class="card-title ColsGroupServices-card-title">GRUPOS</h5>
+                            <p class="card-text ColsGroupServices-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis dictum tellus, in rutrum purus.</p>
+                            <button type="button" class="btn btn-primary ColsGroupServices-btn-hire">Contratar</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col ColsGroupServices-col">
+                        <div class="card ColsGroupServices-card">
+                          <img src="assets/img/paquetes.png" class="card-img-top" alt="...">
+                          <div class="card-body ColsGroupServices-card-body">
+                            <h5 class="card-title ColsGroupServices-card-title">PAQUETES</h5>
+                            <p class="card-text ColsGroupServices-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis dictum tellus, in rutrum purus.</p>
+                            <button type="button" class="btn btn-primary ColsGroupServices-btn-hire">Contratar</button>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-9 col-wedding">
+                        <img src="assets/img/bodas.png" class="card-img-top img-card-bodas" alt="...">
+                      </div>
+                      <div class="col-md-3 col-card-wedding">
+                        <div class="card-body card-body-wedding">
+                          <h5 class="card-title ColsGroupServices-card-title">BODAS</h5>
+                          <p class="card-text ColsGroupServicios-card-text-wedding">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <button type="button" class="btn btn-primary ColsGroupServices-btn-hire btn-wedding">Contratar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="MainFeaturedProducts">
+          <p class="MainFeaturedProducts-text-title">PRODUCTOS DESTACADOS</p>
+          <div class="row row-cols-2 row-cols-md-4 g-4 FeaturedProductos">
+            <div class="col FeaturedProductos-col">
+              <div class="card FeaturedProductos-card card-img-separation">
+                <img class="FeaturedProductos-img-card first-product" src="assets/img/producto1.png" class="card-img-top" alt="...">
+                <div class="card-body FeaturedProductos-card-body">
+                  <p class="card-text">Lorem ipsum</p>
+                  <h5 class="card-title">25,00€</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col FeaturedProductos-col">
+              <div class="card FeaturedProductos-card">
+                <img class="FeaturedProductos-img-card second-producto" src="assets/img/producto2.png" class="card-img-top" alt="...">
+                <div class="card-body FeaturedProductos-card-body">
+                  <p class="card-text">Lorem ipsum</p>
+                  <h5 class="card-title">25,00€</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col FeaturedProductos-col">
+              <div class="card FeaturedProductos-card">
+                <img class="FeaturedProductos-img-card" src="assets/img/producto3.png" class="card-img-top" alt="...">
+                <div class="card-body FeaturedProductos-card-body">
+                  <p class="card-text">Lorem ipsum</p>
+                  <h5 class="card-title">25,00€</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col FeaturedProductos-col">
+              <div class="card FeaturedProductos-card card-img-separation">
+                <img class="FeaturedProductos-img-card img-pequeñas first-product" src="assets/img/producto4.png" class="card-img-top" alt="...">
+                <div class="card-body FeaturedProductos-card-body">
+                  <p class="card-text">Lorem ipsum</p>
+                  <h5 class="card-title">25,00€</h5>                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-see-more">Ver más</button>
+        </div>
+        <div class="MainBlog">
+          <p class="MainBlog-text-title">BLOG</p>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-xl-4 g-4 Blog">
+            <div class="col Blog-col">
+              <div class="card Blog-card">
+                <button class="btn btn-primary Blog-btn-card-img">Leer más</button>
+                <img src="assets/img/img-blog1.png" class="card-img-top" alt="...">
+                <div class="card-body Blog-card-body">
+                  <div class="Blog-container-text-card-blog">
+                    <p class="Blog-text-title-card">12/03/2019</p>
+                    <p class="Blog-text-title-card">Nombre del servicio</p>
+                  </div>
+                <p class="card-text Blog-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col Blog-col">
+              <div class="card Blog-card">
+                <button class="btn btn-primary Blog-btn-card-img">Leer más</button>
+                <img src="assets/img/img-blog2.png" class="card-img-top" alt="...">
+                <div class="card-body Blog-card-body">
+                  <div class="Blog-container-text-card-blog">
+                    <p class="Blog-text-title-card">12/03/2019</p>
+                    <p class="Blog-text-title-card">Nombre del servicio</p>
+                  </div>
+                <p class="card-text Blog-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col Blog-col">
+              <div class="card Blog-card">
+                <button class="btn btn-primary Blog-btn-card-img">Leer más</button>
+                <img src="assets/img/img-blog3.png" class="card-img-top" alt="...">
+                <div class="card-body Blog-card-body">
+                  <div class="Blog-container-text-card-blog">
+                    <p class="Blog-text-title-card">12/03/2019</p>
+                    <p class="Blog-text-title-card">Nombre del servicio</p>
+                  </div>
+                <p class="card-text Blog-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col Blog-col">
+              <div class="card Blog-card">
+                <button class="btn btn-primary Blog-btn-card-img">Leer más</button>
+                <img src="assets/img/img-blog4.png" class="card-img-top" alt="...">
+                <div class="card-body Blog-card-body">
+                  <div class="Blog-container-text-card-blog">
+                    <p class="Blog-text-title-card">12/03/2019</p>
+                    <p class="Blog-text-title-card">Nombre del servicio</p>
+                  </div>
+                <p class="card-text Blog-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-see-more">Ver más</button>
+        </div>
+        <footer class="Footer">
+          <div class="container-main-footer">
+            <div class="Footer-container-col">
+              <label class="text-label-footer">App</label>
+              <img class="img-col-app-footer" src="assets/img/play-store.png" alt="">
+              <img src="assets/img/app-store.png" alt="">
+            </div>
+            <div class="Footer-container-col">
+              <label class="text-label-footer">Tienda</label>
+              <a href="#" class="link-col-footer">Servicios</a>
+              <a href="#" class="link-col-footer">Productos</a>
+              <a href="#" class="link-col-footer">Bodas</a>
+              <a href="#" class="link-col-footer">Estilos</a>
+              <a href="#" class="link-col-footer">Locales Bellify</a>
+            </div>
+            <div class="Footer-container-col">
+              <label class="text-label-footer">Sobre Bellify</label>
+              <a href="#" class="link-col-footer">Nuestro equipo</a>
+              <a href="#" class="link-col-footer">Patners</a>
+              <a href="#" class="link-col-footer">Blog</a>
+              <a href="#" class="link-col-footer">Reviews</a>
+              <a href="#" class="link-col-footer">Prensa y medios</a>
+              <a href="#" class="link-col-footer">Únete a nosotros</a>
+            </div>
+            <div class="Footer-container-col">
+              <label class="text-label-footer">Ayuda</label>
+              <a href="#" class="link-col-footer">FAQ</a>
+              <a href="#" class="link-col-footer">Términos y condiciones</a>
+              <a href="#" class="link-col-footer">Privacidad</a>
+              <a href="#" class="link-col-footer">Contacto</a>
+            </div>
+            <div class="Footer-container-col">
+              <label class="text-label-footer">Siguenos</label>
+              <div class="container-follow-us-footer">
+                <a href="#"><img src="assets/img/twitter.png" alt="" class="icons-col-follow-us-footer"></a>
+                <a href="#"><img src="assets/img/facebook.png" alt="" class="icons-col-follow-us-footer"></a>
+                <a href="#"><img src="assets/img/instagram.png" alt="" class="icons-col-follow-us-footer"></a>
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="container-second-footer">
+            <div class="container-form-footer">
+              <label for="" class="text-label-form-footer">Newsletter</label>
+              <input type="text" class="input-form-footer" value="Nombre">
+              <input type="email" class="input-form-footer" value="Correo electrónico">
+              <button class="btn btn-primary Footer-btn-form"><img src="assets/img/row-rigth.png" alt=""></button>
+            </div>
+            <div class="container-payment-methods">
+              <a href="#" class="links-payment-methods"><img class="img-payments-methods" src="assets/img/visa.png" alt="" class="icons-payment-methods"></a>
+              <a href="#" class="links-payment-methods"><img class="img-payments-methods" src="assets/img/master-card.png" alt="" class="icons-payment-methods"></a>
+              <a href="#" class="links-payment-methods"><img class="img-payments-methods" src="assets/img/maestro.png" alt="" class="icons-payment-methods"></a>
+              <a href="#" class="links-payment-methods blue"><img class="img-payments-methods" src="assets/img/american-express.png" alt="" class="icons-payment-methods"></a>
+            </div>
+          </div>
+        </footer>
+        <div class="TopBar TopBarFooter">
+          <p>© 2019. Bellify. All rights reserved.</p>
+          <p>Work done by <img src="assets/img/topbar.png" alt=""><span class="TopBarFooter-span">beonshop</span></p>
+      </div>
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
+

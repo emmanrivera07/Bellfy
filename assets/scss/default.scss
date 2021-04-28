@@ -1,0 +1,10 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:family=Cormorant+Infant:wght@100;300;400;500;600;700;900&family=Ralewa&family=Raleway:wght@100;300;400;500;600;700;900&display=swap');
+
+@import "variables";
+
+//mixins
+@import "mixins/fonts";
+@import "mixins/buttons";
+
+@import "components/navbar";

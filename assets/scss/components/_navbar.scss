@@ -1,0 +1,1081 @@
+.TopBar {
+    background: $black;
+    color: $white;
+    font-family: $main-font;
+    font-size: px-to-rems(14);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.TopBarFooter{
+    display: flex;
+    justify-content: space-between;
+    padding:0% 7%;
+}
+
+.TopBarFooter-span{
+    font-weight: $bold;
+}
+
+.MainBlog{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.btn-see-more{
+    @include btn-principal;
+    border-radius:30px;
+    height: 50px;
+    margin: 5% 0%;
+    width: 20%;
+}
+
+.btn-wedding{
+    display: block !important;
+}
+.MainStoreOnline-btn-buy-now{
+    background: $black;
+    border: 0px;
+    border-radius: 20px;
+    height: 65px;
+    margin-top: 106px;
+    width: 285px;
+
+    &:hover{
+        background: $black;
+    }
+}
+
+.Blog{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.Blog-card-text{
+    text-align: start !important;
+}
+
+.Blog-btn-card-img{
+    background: transparent;
+    border-color: $white;
+    border-radius: 33px;
+    display: none;
+    height: 55px;
+    left: 25%;
+    position: absolute;
+    right: 25%;
+    top:30%;
+    width:50%;
+    z-index: 99;
+
+    &:focus{
+        background: transparent;
+        box-shadow: none !important;
+    }
+
+    &:active{
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    &:hover{
+        background: transparent;
+        border-color: $white!important;
+    }
+}
+
+.blue{
+    background: $blue !important;
+}
+
+.Blog-col{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+.Blog-col:hover{
+    padding-right: 0px;
+    padding-left: 10px;
+
+    & .Blog-btn-card-img{
+        display: block;
+    }
+}
+
+.Blog-container-text-card-blog{
+    color: $colorprincipal;
+    display: flex;
+    justify-content: space-between;
+    font-family: $main-font;
+    font-size: px-to-rems(16);
+    font-weight: $medium;
+}
+
+.card-body-wedding{
+    text-align: center;
+}
+.col-card-wedding{
+    padding: 8% 0%;
+}
+
+.ColsGroupServices{
+    margin-top: 15%;
+}
+
+.ColsGroupServices-col{
+    padding: 5px;
+    text-align: center;
+}
+
+.ColsGroupServices-card-title{
+    color:$colorprincipal;
+    font-family: $second-font;
+    font-size:  px-to-rems(18);
+    font-weight: $bold;
+}
+
+.ColsGroupServices-card-text{
+    display: none;
+    font-family: $main-font;
+    font-size:  px-to-rems(12);
+    font-weight: $medium;
+}
+
+.ColsGroupServicios-card-text-wedding{
+    font-family: $main-font;
+    font-size:  px-to-rems(12);
+    font-weight: $medium;
+}
+
+.ColsGroupServices-btn-hire{
+    display: none;
+    border-radius: 33px;
+    height: 45px;
+    margin:0% 25%;
+    width: 50%;
+    @include btn-principal;
+}
+
+.col-card-grande{
+    width: 100%;
+}
+
+.ColsServices{
+    margin-top: 20%;
+}
+
+.ColsServices-card{
+    background-color: transparent;
+    border:none;
+    justify-content: center;
+    text-align: center;
+}
+
+.ColsServices-card-title{
+    font-family: $main-font;
+    font-size: 24px;
+    font-weight: $medium;
+}
+
+.ColsServices-card-text{
+    font-family: $main-font;
+    font-size: 15px;
+    font-weight: $medium;
+}
+
+.col-wedding{
+    padding: 0px;
+}
+
+
+.ColsServices-card-img-belleza{
+    height: 92px;
+    margin-left: 40%;
+    width: 94px;
+}
+
+.ColsServices-card-img-disponibilidad{
+    height: 98px;
+    margin-left: 40%;
+    width: 83px;
+}
+
+.ColsServices-card-img-profesionales{
+    height: 98px;
+    margin-left: 40%;
+    width: 70px;
+}
+
+.MainServicescontainer-text{
+    padding-top: 10%;
+    text-align: center;
+    margin: 0% 22.5%;
+    width: 55%;
+}
+
+.dismunicion-tamaño{
+    max-height: 281.53px;
+}
+
+.FeaturedProductos-card{
+    background-color: $plomoclaro;
+    border:0px;
+    border-radius: 0px;
+}
+
+.FeaturedProductos-card-body{
+    background-color: $white;
+    font-family: $main-font;
+    font-size: px-to-rems(16);
+}
+
+.FeaturedProductos{
+    padding: 0px 5%;
+}
+
+.FeaturedProductos-col{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 0px 10px;
+}
+.first-product{
+    margin-bottom: 15%;
+}
+
+.Footer-btn-form{
+    @include btn-principal;
+    border-radius: 0px;
+    margin-left: -5px;
+    margin-top: -1px;
+    height: 43px;
+    width: 53px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: none;
+}
+
+.img-card-bodas{
+    border-radius: 0px;
+}
+
+.img-col-app-footer{
+    margin-bottom: 5px;
+}
+
+.img-payments-methods{
+    margin:0% 20%;
+}
+
+.input-form-footer{
+    background: transparent;
+    border-color: $white;
+    color: $white;
+    font-family: $main-font;
+    font-size: px-to-rems(14);
+    font-weight: $light;
+    margin-left: 15px;
+    height: 42px;
+    width: 287px;
+}
+
+.card-img-separation{
+    padding-top: 9%;
+}
+.list-navbar-secundary{
+    vertical-align: middle;
+}
+
+.link-col-footer{
+    color: $white;
+    font-family: $main-font;
+    font-size: px-to-rems(14);
+    font-weight: $light;
+    line-height: 30px;
+}
+
+.links-payment-methods{
+    background: $white;
+    border-radius: 4px;
+    height: 37px;
+    line-height: 37px;
+    margin-right: 5px;
+    width: 60px;
+}
+.line{
+    border-bottom:1px solid $colorprincipal;
+    height: 50px;
+    margin: 0% 7.5%;
+    margin-bottom: 5%;
+    width: 85%;
+}
+.MainHeader{
+    background-image: url(/assets/img/fondo-header.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 958px;
+}
+
+.MainStoreOnline{
+    background-image: url(/assets/img/fondo-tienda.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.MainFeaturedProducts{
+    padding-top: 10%;
+    text-align: center;
+    border-bottom:2px solid $grayclaro;
+}
+
+.MainServices{
+    background-color: $plomoclaro;
+    padding-bottom: 1px;
+}
+
+.mb-3, .my-3 {
+    margin:0px 5px;
+    margin-bottom: 0.5rem!important;
+}
+
+.Navbar{
+    background-color: $gray;
+    padding:0px;
+        &-item .purple-btn{
+            width: 182px;
+            border-radius: 0px;
+            height: 75px;
+            margin-right: 30px;
+            @include btn-principal;
+        }
+
+}
+
+.Navbar-btn-menu{
+    background-color: $white;
+}
+
+.Nabvar-badge{
+    background-color: $rojoclaro;
+    color: $white;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    top:-5px;
+}
+.Hero-container-text-subtitle-header{
+    margin-left: 13%;
+    margin-bottom: 190px;
+    width: 50%;
+}
+.Navbar-collapse{
+    justify-content: space-between;
+}
+
+.Nabvar-dropdown{
+    background: $gray;
+    height: 176px;
+    text-align: center;
+    border-radius: 0px;
+    padding: 0px;
+    width:210px;
+}
+
+.Navbar-dropdown-item{
+    align-items: center;
+    display: flex;
+    color: $white;
+    height: 44px;
+    justify-content: center;
+    padding:0px;
+        &:hover{
+            background-color: $blackrelleno;
+            color: $white;
+        }
+}
+
+.Navbar-logo{
+    height: 35px;
+    width: 155px;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
+.Navbar-list{
+    margin-right: 10%;
+}
+
+.Hero-text-title-header{
+    color: $white;
+    font-family: $second-font;
+    font-weight: $bold;
+    font-size: px-to-rems(60);
+}
+
+.Hero-container-text-title-header{
+    margin-top:223px;
+    margin-left: 13%;
+    width: 30%;
+}
+
+.Hero-text-subtitle-header{
+    color: $white;
+    font-family: $main-font;
+    font-weight: $medium;
+    font-size: px-to-rems(24);
+}
+
+
+.Navbar-select{
+    background: transparent;
+    border: 0px;
+    color: $white;
+    font-family: $main-font;
+    font-weight: $medium;
+    font-size: px-to-rems(14);
+    width: 50px;
+}
+
+.Navbar-option{
+    color: $white;
+    background-color: $gray;
+
+    &:hover{
+        background-color: $blackrelleno !important;
+    }
+}
+
+.navbar-light .navbar-nav .Navbar-link{
+    color: $white;
+    font-family: $main-font;
+    font-weight: $medium;
+    font-size: px-to-rems(14);
+    margin-right: 25px;
+
+        &:hover{
+            background-color: $gray;
+            color: $white;
+        }
+        &:focus{
+            color: $white;
+        }
+
+        &:active{
+            color: $white !important;
+        }
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.option-navbar{
+    background: $gray;
+    color: $white;
+}
+
+.Reservation{
+    background: $white;
+    display: flex;
+    height: 150px;
+    margin: 0% 10%;
+    position: absolute;
+    text-align: center;
+    line-height: 150px;
+    top:883px;
+    width: 80%;
+}
+
+.Reservation-calendar{
+    border: 0px;
+    height: 30px;
+    overflow: hidden;
+    width: 120px;
+}
+
+.Reserva-hour{
+    border: 0px;
+    height: 30px;
+    overflow: hidden;
+    width: 60px;
+}
+
+.Reservation-options{
+    width: 25%;
+    border-right: 1px solid #D0D0D0;
+    height: 150px;
+}
+
+.Reservation-select{
+    border:0px;
+    color: $colorprincipal;
+    width: 15px;
+}
+
+.Reservation .Reservation-options .Reservation-select .Reservation-select-option{
+    background-color: $gray;
+    color: $white;
+    height: 154px;
+    width: 297px !important;
+
+            &:hover{
+                background-color: $colorprincipal !important;
+            }
+
+}
+
+.Reservation-btn-reserve{
+    border-radius: 0px;
+    width: 247px;
+    @include btn-principal;
+
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.row-footer{
+    flex-direction: row !important;
+}
+
+.second-producto{
+    margin-bottom: 24%;
+}
+
+.MainStoreOnline-subtitle{
+    font-family: $main-font;
+    font-weight: $medium;
+    font-size: px-to-rems(16);
+}
+
+.MainStoreOnline-container{
+    padding-top: 337px;
+    text-align: center;
+}
+
+.text-label-footer{
+    color: $white;
+    font-family: $main-font;
+    font-size: px-to-rems(30);
+    font-weight: $light;
+    margin-bottom: 40px;
+}
+
+.MainServices-text-title, .MainFeaturedProducts-text-title{
+    color: $colorprincipal;
+    font-family: $second-font;
+    font-size: px-to-rems(36);
+    font-weight: $semibold;
+    margin-bottom: 10%;
+}
+
+.MainBlog-text-title{
+    color: $colorprincipal;
+    font-family: $second-font;
+    font-size: px-to-rems(36);
+    font-weight: $semibold;
+}
+
+.MainServices-text-subtitle-services{
+    font-family: $main-font;
+    font-size: px-to-rems(16);
+    font-weight: $medium;
+}
+
+.text-label-form-footer{
+    color:$white;
+    font-family: $main-font;
+    font-size: px-to-rems(30);
+    font-weight: $light;
+    margin-right: 15px;
+}
+
+.MainStoreOnline-title{
+    font-family: $second-font;
+    font-weight: $bold;
+    font-size: px-to-rems(36);
+    margin-bottom: 53px;
+}
+
+@media screen and(min-width: 280px){
+
+    .container-main-footer{
+        display: flex;
+    }
+
+    .container-follow-us-footer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .container-second-footer{
+        display: flex;
+        flex-direction: row;
+    }
+    .container-payment-methods{
+        display: flex;
+
+    }
+    .Footer-container-col{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer{
+        background: $gray;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0%;
+    }
+
+    .Hero-text-title-header{
+        font-size: px-to-rems(22);
+    }
+
+    .Hero-text-subtitle-header{
+        font-size: px-to-rems(18);
+    }
+
+    .Hero-container-text-title-header {
+        width: 50%;
+    }
+    .MainStoreOnline-btn-buy-now{
+        background: $gray;
+        border: 0px;
+        border-radius: 30px;
+        height: 65px;
+        margin-top: 106px;
+        width: 50%;
+
+        &:hover{
+            background: $gray;
+        }
+    }
+
+    .container-main-footer{
+        flex-direction: column;
+    }
+
+    .container-second-footer{
+        flex-direction: column;
+    }
+    .ColsGroupServices-card-title{
+        font-size: px-to-rems(14);
+    }
+
+    .ColsGroupServices-card-text{
+        font-size: px-to-rems(8);
+    }
+
+    .ColsGroupServices-btn-hire{
+        height: 35px;
+        width: 40%;
+        margin:0% 30%;
+    }
+    .ColsGroupServices .ColsGroupServices-card:hover{
+
+
+        &  .ColsGroupServices-card-body{
+            background-color: $white;
+            margin-top: -75px;
+
+        }
+        & .ColsGroupServices-card-text{
+            display: block;
+        }
+        & .ColsGroupServices-btn-contratar{
+            display: block;
+        }
+
+
+    }
+
+    .container-follow-us-footer{
+        width: 40%;
+    }
+
+    .Footer{
+        background: $gray;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0%;
+    }
+
+
+    .text-title-header{
+        font-size: px-to-rems(36);
+    }
+
+    .Reservation{
+        display: none;
+    }
+}
+
+@media screen and(min-width: 320px){
+
+    .ColsGroupServices-card-text{
+        font-size: px-to-rems(10);
+    }
+    .ColsGroupServices .ColsGroupServices-card:hover{
+
+
+        &  .ColsGroupServices-card-body{
+            background-color: $white;
+            margin-top: -81px;
+
+        }
+        & .ColsGroupServices-card-text{
+            display: block;
+        }
+        & .ColsGroupServices-btn-hire{
+            display: block;
+        }
+
+
+    }
+    .Navbar-text-titulo {
+        font-size: px-to-rems(14);
+    }
+
+    .Navbar-text-subtitulo {
+        font-size: px-to-rems(6);
+    }
+}
+
+@media screen and(min-width: 360px){
+
+    .ColsGroupServices-card-text{
+        font-size: px-to-rems(12);
+    }
+
+    .ColsGroupServices .ColsGroupServices-card:hover{
+
+
+        &  .ColsGroupServices-card-body{
+            background-color: $white;
+            margin-top: -105px;
+
+        }
+        & .ColsGroupServices-card-text{
+            display: block;
+        }
+        & .ColsGroupServices-btn-hire{
+            display: block;
+        }
+
+
+    }
+    .Navbar-text-titulo {
+        font-size: px-to-rems(16);
+    }
+
+    .Navbar-text-subtitulo {
+        font-size: px-to-rems(6);
+    }
+}
+
+@media screen and(min-width:375px){
+    .ColsGroupServices .ColsGroupServices-card:hover{
+
+
+        &  .ColsGroupServices-card-body{
+            background-color: $white;
+            margin-top: -87px;
+
+        }
+        & .ColsGroupServices-card-text{
+            display: block;
+        }
+        & .ColsGroupServices-btn-hire{
+            display: block;
+        }
+
+
+    }
+}
+
+@media screen and(min-width: 411px){
+    .ColsGroupServices .ColsGroupServices-card:hover{
+
+
+        &  .ColsGroupServices-card-body{
+            background-color: $white;
+            margin-top: -87px;
+
+        }
+        & .ColsGroupServices-card-text{
+            display: block;
+        }
+        & .ColsGroupServices-btn-hire{
+            display: block;
+        }
+
+
+    }
+    .Navbar-text-titulo {
+        font-size: px-to-rems(18);
+    }
+
+    .Navbar-text-subtitulo {
+        font-size: px-to-rems(8);
+    }
+}
+
+@media screen and(min-width: 500px){
+
+    .Navbar-text-titulo {
+        font-size: px-to-rems(22);
+    }
+
+    .Navbar-text-subtitulo {
+        font-size: px-to-rems(10);
+    }
+}
+
+@media screen and(min-width: 768px){
+    .MainStoreOnline-bnt-buy-now{
+        border-radius: 30px;
+        height: 65px;
+        margin-top: 106px;
+        width: 30%;
+    }
+
+    .Navbar-text-titulo {
+        font-size: px-to-rems(32);
+    }
+
+    .Navbar-text-subtitulo {
+        font-size: px-to-rems(16);
+    }
+}
+
+@media screen and(min-width: 1024px){
+    .MainStoreOnline-btn-buy-now{
+        height: 60px;
+        width: 20%;
+    }
+
+    .container-main-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .container-follow-us-footer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .container-second-footer{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding:0% 5%;
+    }
+    .container-payment-methods{
+        display: flex;
+
+    }
+    .Footer-container-col{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Footer{
+        background: $gray;
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0%;
+    }
+
+    .Hero-container-text-title-header{
+        width: 40%;
+    }
+    .Hero-text-title-header{
+        font-size: px-to-rems(60);
+    }
+    .Hero-text-subtitle-header{
+        font-size: px-to-rems(24);
+    }
+
+    .Reservation{
+        display: flex;
+    }
+}
+@media screen and(min-width: 1093px){
+    .Hero-container-text-title-header{
+        width: 38%;
+    }
+}
+
+@media screen and(max-width: 1199px){
+    .Reserva{
+        display: none;
+    }
+
+    .Navbar-collapse{
+        background-color: $gray;
+        padding: 15px 0px;
+    }
+
+    .Navbar-link{
+        font-size: px-to-rems(8);
+    }
+
+    .Navbar-list{
+        margin-right: 5%;
+    }
+
+    .Navbar{
+        height: 50px;
+    }
+    .navbar-nav{
+    padding-left: 70px;
+    }
+    .Navbar .purple-btn{
+        height: 50px;
+        width: 80px;
+    }
+
+    .Navbar-select{
+        margin-top:10px;
+    }
+
+    .Navbar-icons{
+        margin-top: 10px;
+    }
+}
+@media screen and(min-width: 1200px){
+    .MainStoreOnline-btn-buy-now{
+        border-radius: 33px;
+        height: 65px;
+        margin-top: 106px;
+        width: 20%;
+    }
+
+    .ColsGroupServices .ColsGroupServices-card:hover{
+
+
+        &  .ColsGroupServices-card-body{
+            background-color: $white;
+            margin-top: -87px;
+
+        }
+        & .ColsGroupServices-card-text{
+            display: block;
+        }
+        & .ColsGroupServices-btn-hire{
+            display: block;
+        }
+
+
+    }
+
+    .Navbar{
+        height: 75px;
+    }
+
+    .Navbar .purple-btn{
+        height: 75px;
+        width: 100px;
+    }
+
+    .Navbar-list{
+        margin-right: 5%;
+    }
+
+    .Navbar-text-titulo{
+        font-size: px-to-rems(60);
+    }
+}
+
+@media screen and(min-width: 1235px){
+
+
+.Navbar-list{
+     margin-right: 7%;
+}
+}
+
+@media screen and(min-width: 1250px){
+
+
+    .Navbar-list{
+         margin-right: 9%;
+    }
+}
+
+@media screen and(min-width: 1270px){
+
+
+    .Navbar-list{
+         margin-right: 11%;
+    }
+}
+
+@media screen and(min-width: 1290px){
+
+
+    .Navbar-list{
+         margin-right: 13%;
+    }
+}
+
+@media screen and(min-width: 1341px){
+
+    .Navbar-list{
+        margin-right: 9%;
+   }
+
+    .Navbar .purple-btn{
+        height: 75px;
+        width: 182px;
+    }
+
+}
+
+@media screen and(min-width: 1355px){
+
+
+    .Navbar-list{
+         margin-right: 10%;
+    }
+}
+
+@media screen and(min-width: 1370px){
+
+
+    .Navbar-list{
+         margin-right: 11%;
+    }
+}
+
+@media screen and(min-width: 1385px){
+
+
+    .Navbar-list{
+         margin-right: 13%;
+    }
+}
+
+@media screen and(min-width: 1405px){
+
+
+    .Navbar-list{
+         margin-right: 15%;
+    }
+}

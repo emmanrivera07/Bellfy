@@ -1,0 +1,18 @@
+@mixin btn-principal {
+    background: $colorprincipal;
+    border:0px;
+
+    &:hover{
+        background: $colorprincipal;
+    }
+
+    &:focus{
+        background-color: $colorprincipal;
+        box-shadow: none;
+    }
+
+    &:active{
+        background-color: $colorprincipal !important;
+        box-shadow: none !important;
+    }
+}
